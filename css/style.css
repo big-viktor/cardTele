@@ -438,10 +438,10 @@ button {
 }
 
 .text {
-  width: 110px;
+  width: 150px;
   max-width: 100%;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 20px;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   display: -webkit-box;
@@ -563,12 +563,12 @@ i {
   border: 1.8px solid #dfdfdf;
   cursor: pointer;
   color: #424242;
-  height: 15px;
+  height: 25px;
 }
 
 .btn_variant:hover {
   border-bottom: 3px solid #dfdfdf;
-  height: 14px;
+  height: 23px;
 }
 
 .btn_variant:active {
@@ -598,6 +598,8 @@ body {
   margin-right: 5px;
   border: 0.7px solid #5d4d4e;
   padding: 5px;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.15);
 }
 
 .container_check:hover {
@@ -1080,6 +1082,20 @@ body {
     height: 30px;
     width: 100%;
     margin-bottom: 10px;
+  }
+
+  .mob_adap {
+    margin-bottom: 0px;
+  }
+
+  .text {
+    width: 170px;
+    font-size: 22px;
+  }
+
+  .btn_variant:hover {
+    border-bottom: 3px solid #dfdfdf;
+    height: 29px;
   }
 }
 

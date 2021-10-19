@@ -14,6 +14,8 @@ $(document).ready(function () {
         asNavFor: '.slider-for',
         arrows: true,
         infinite: true,
+        focusOnSelect: true,
+        draggable: true,
 
     });
     $('.slider-for-two').slick({
